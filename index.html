@@ -4,15 +4,16 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <form action="index.php" method="post">
            <div class="login-box">
                 <div class="login-header">
                     <header>Login</header>
                 </div>
                 <div class="input-box">
-                    <input type="text" class="input-field" placeholder="Email">
+                    <input type="text" class="input-field" placeholder="Email" id="email" name="email">
                 </div>
                 <div class="input-box">
-                    <input type="password" class="input-field" placeholder="password">
+                    <input type="password" class="input-field" placeholder="password" id="password" name="password">
                 </div>
                 <div class="forgot">
                     <SECtion>
@@ -31,5 +32,6 @@
                     <p>Dont have an account?<a href="#">Sign up</a></p>
                 </div>
            </div>
+        </form>
     </body>
 </html>
